@@ -1,0 +1,88 @@
+type = menu
+
+customization-meta {
+  identifier = twr.menu.update
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/slideshows/background/images/image_1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:twr.update.curse%
+  loopbackgroundanimations = true
+  x = -64
+  width = 132
+  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  action = addbutton
+  y = 15
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:twr.update.mcbbs%
+  loopbackgroundanimations = true
+  x = -63
+  width = 132
+  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  action = addbutton
+  y = 38
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://www.mcbbs.net/thread-1227167-1-1.html
+  height = 20
+}
+
+customization {
+  path = config/fancymenu_assets/twr_logo_title.png
+  orientation = mid-centered
+  x = -100
+  width = 200
+  action = addtexture
+  actionid = 2cc3ddca-16d8-4dc4-98b6-1f236dc0e2151637833763061
+  y = -67
+  height = 50
+}
+
+customization {
+  path = config/fancymenu_assets/buttons/button_normal.png
+  orientation = mid-centered
+  x = -97
+  width = 195
+  action = addtexture
+  actionid = 72d75de1-78c3-41ec-a23b-b9812b5c6a2c1637833910703
+  y = -12
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 0
+  action = addtext
+  actionid = eec83f38-deb0-46a6-8339-d989edc5ec9a1637833936603
+  y = -4
+  scale = 1.0
+  alignment = centered
+  value = %local:twr.update.download_update%
+}
+

@@ -1,0 +1,43 @@
+{
+  "icon": "immersiveengineering:dust_aluminum",
+  "category": "frostedheart:production",
+  "parents": [
+    "crucible",
+    "assembly_line"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.45,
+      "id": "d594ab74bcd5477d",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "dc66f68d04244263",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "3f1dfd24a4324bae",
+      "item": "immersiveindustry:electrolyzer"
+    }
+  ],
+  "points": 6000,
+  "showAltDesc": true
+}

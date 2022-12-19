@@ -1,0 +1,43 @@
+{
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:red_mushroom",
+    "small": "frostedheart:incubator"
+  },
+  "category": "frostedheart:living",
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "7cf33f306b054217",
+      "required": true,
+      "level": 0
+    },
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "e2f40af145414aba",
+      "item": {
+        "item": "rankine:quicklime"
+      },
+      "consume": true
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:mushrooms"
+    },
+    {
+      "tag": "kubejs:straw_briquettes"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "9fd1d3f9fcde4f04",
+      "item": "frostedheart:incubator"
+    }
+  ],
+  "points": 2000,
+  "showAltDesc": true
+}

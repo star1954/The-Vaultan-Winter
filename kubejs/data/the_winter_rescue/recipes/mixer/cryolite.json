@@ -1,0 +1,17 @@
+{
+		"type": "immersiveengineering:mixer",
+        "inputs": [{
+            "base_ingredient":{"item":"kubejs:fluorite_dust"},
+            "count":2
+          },
+          {
+            "item": "kubejs:aluminium_hydroxide_dust"
+          }],
+        "result": {
+            "fluid": "kubejs:cryolite","amount": 550
+        },
+		"fluid": {
+            "tag": "the_winter_rescue:fluidsulfuricacid","amount": 550
+        },
+		"energy": 2000
+}

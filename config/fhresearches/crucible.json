@@ -1,0 +1,64 @@
+{
+  "icon": "immersiveengineering:ingot_steel",
+  "category": "frostedheart:production",
+  "parents": [
+    "heating_basin",
+    "electromagnetics"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.6,
+      "id": "b273c6897df04409",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "1641155720c64541",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:coal_coke"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:ingots/cast_iron"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "rankine:high_refractory_bricks"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:crucible",
+      "id": "3bbf2ad41ee0444f",
+      "multiblock": "immersiveindustry:multiblocks/crucible"
+    },
+    {
+      "type": "recipe",
+      "id": "6e6cf95ee4324e31",
+      "item": "immersiveindustry:burning_chamber"
+    }
+  ],
+  "points": 5000,
+  "showAltDesc": true
+}

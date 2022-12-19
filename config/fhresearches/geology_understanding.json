@@ -1,0 +1,50 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:copper_pro_pick",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:exploration",
+  "clues": [
+    {
+      "type": "game",
+      "value": 1.0,
+      "id": "4391043217e049ee",
+      "required": true,
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "tag": "forge:stone"
+      }
+    },
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "icon": {
+        "type": "combined",
+        "base": {
+          "type": "item",
+          "item": {
+            "id": "frostedheart:copper_pro_pick",
+            "nbt": "{Damage:0}"
+          }
+        },
+        "small": "minecraft:crafting_table"
+      },
+      "id": "e1b61496f49f4857",
+      "item": "frostedheart:copper_pro_pick"
+    }
+  ],
+  "points": 500,
+  "showAltDesc": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "requirements": [
+    {
+      "type": "category_max",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:bowl"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "frostedheart:rye_flour"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "category_max",
+      "category": "INEDIBLE",
+      "max": 1.0
+    }
+  ],
+  "result": "frostedheart:rye_porridge",
+  "cookingtime": 400,
+  "priority": 16,
+  "potlevel": 0
+}

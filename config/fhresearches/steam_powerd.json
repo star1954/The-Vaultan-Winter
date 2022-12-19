@@ -1,0 +1,141 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:steam_bottle",
+      "nbt": "{energy:240}"
+    }
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "simple_machines",
+    "fluid_transport"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "f3dceb073ccd440f",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "43d70558bc714902",
+      "item": {
+        "item": "steampowered:bronze_burner"
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "f2f99cca81a04bca",
+      "item": {
+        "item": "steampowered:bronze_boiler"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 32,
+      "base_ingredient": {
+        "item": "steampowered:bronze_sheet"
+      }
+    },
+    {
+      "count": 12,
+      "base_ingredient": {
+        "item": "rankine:bronze_ingot"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "kubejs:cast_iron_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "rankine:cast_iron_ingot"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "item",
+      "id": "57f02c832f354f6f",
+      "rewards": [
+        "steampowered:bronze_steam_engine"
+      ]
+    },
+    {
+      "type": "item",
+      "id": "c59910e60b74917",
+      "rewards": [
+        "steampowered:bronze_flywheel"
+      ]
+    },
+    {
+      "type": "recipe",
+      "tooltip": [
+        "@"
+      ],
+      "icon": {
+        "type": "combined",
+        "base": [
+          "steampowered:bronze_flywheel",
+          "steampowered:cast_iron_flywheel",
+          "steampowered:steel_flywheel"
+        ],
+        "small": "minecraft:crafting_table"
+      },
+      "id": "8eed770cafe84d50",
+      "item": "steampowered:bronze_flywheel"
+    },
+    {
+      "type": "recipe",
+      "id": "b209969ec10f46c4",
+      "hidden": true,
+      "item": "steampowered:cast_iron_flywheel"
+    },
+    {
+      "type": "recipe",
+      "id": "561c41b2d3314472",
+      "hidden": true,
+      "item": "steampowered:steel_flywheel"
+    },
+    {
+      "type": "recipe",
+      "tooltip": [
+        "@"
+      ],
+      "icon": {
+        "type": "combined",
+        "base": [
+          "steampowered:bronze_steam_engine",
+          "steampowered:cast_iron_steam_engine",
+          "steampowered:steel_steam_engine"
+        ],
+        "small": "minecraft:crafting_table"
+      },
+      "id": "48ac6b57ae2145c1",
+      "item": "steampowered:bronze_steam_engine"
+    },
+    {
+      "type": "recipe",
+      "id": "c583350d09044465",
+      "hidden": true,
+      "item": "steampowered:cast_iron_steam_engine"
+    },
+    {
+      "type": "recipe",
+      "id": "bb416da471994df0",
+      "hidden": true,
+      "item": "steampowered:steel_steam_engine"
+    }
+  ],
+  "points": 1750,
+  "showAltDesc": true
+}

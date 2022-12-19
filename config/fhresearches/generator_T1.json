@@ -1,0 +1,65 @@
+{
+  "icon": "frostedheart:energy_core",
+  "category": "frostedheart:rescue",
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "e5cfcad4fa304b47",
+      "required": true,
+      "level": 0
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "7b267ec81b4447f9",
+      "item": {
+        "item": "frostedheart:generator_brick"
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "b9e02434b4704850",
+      "item": {
+        "item": "frostedheart:generator_amplifier_r1"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:ingots/copper"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "158adfb5d2a649d0",
+      "item": "frostedheart:generator_core_t1"
+    },
+    {
+      "type": "item",
+      "id": "4994b13a11204080",
+      "rewards": [
+        "frostedheart:energy_core"
+      ]
+    },
+    {
+      "name": "@",
+      "type": "multiblock",
+      "tooltip": [
+        "@",
+        "@"
+      ],
+      "icon": "frostedheart:generator",
+      "id": "91c6a3ae87914f7a",
+      "multiblock": "frostedheart:multiblocks/generator"
+    }
+  ],
+  "points": 1000,
+  "showAltDesc": true,
+  "hideEffects": true
+}

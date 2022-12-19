@@ -1,0 +1,34 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:thermos",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "clues": [
+    {
+      "type": "item",
+      "value": 1.0,
+      "id": "9197c8058ebc486c",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "item": "create:copper_sheet"
+        }
+      },
+      "consume": true
+    }
+  ],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "915e5759ba344d58",
+      "item": "frostedheart:thermos"
+    }
+  ],
+  "points": 800,
+  "showAltDesc": true
+}

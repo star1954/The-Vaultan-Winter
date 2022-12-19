@@ -1,0 +1,52 @@
+{
+  "icon": "frostedheart:heat_radiator",
+  "category": "frostedheart:rescue",
+  "parents": [
+    "generator_T2"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "ae5d7e4c7d9245c1",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "5e81ea5ba49a4c55",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:plates/cast_iron"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "frostedheart:heat_radiator",
+      "id": "6931e12b7a594fea",
+      "multiblock": "frostedheart:multiblocks/heat_radiator"
+    }
+  ],
+  "points": 3000,
+  "showAltDesc": true
+}

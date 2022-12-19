@@ -1,0 +1,81 @@
+{
+  "icon": "frostedheart:generator_t2",
+  "category": "frostedheart:rescue",
+  "parents": [
+    "generator_T1",
+    "crucible"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.35,
+      "id": "2b01f07328d74ae1",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "8dbe4afe4c9412a",
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.1,
+      "id": "baa56071bf5f4adf",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "kubejs:invar_steel_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "immersiveengineering:scaffoldings/steel"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "rankine:high_refractory_bricks"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "name": "@",
+      "tooltip": [
+        "@",
+        "@"
+      ],
+      "icon": "frostedheart:generator_t2",
+      "id": "5c48befb1df4af1",
+      "multiblock": "frostedheart:multiblocks/generator_t2"
+    },
+    {
+      "type": "recipe",
+      "id": "2416a9bba39e4e5e",
+      "item": "frostedheart:heat_pipe"
+    },
+    {
+      "type": "recipe",
+      "id": "ac97c8c704e24f71",
+      "item": "frostedheart:charger"
+    }
+  ],
+  "points": 6000,
+  "showAltDesc": true,
+  "hideEffects": true
+}

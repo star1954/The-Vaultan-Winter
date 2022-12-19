@@ -1,0 +1,52 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:copper_core_spade",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:exploration",
+  "parents": [
+    "geology_understanding"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "55860762a3d9449e",
+      "required": true,
+      "level": 0
+    },
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "ec765f7623834d73",
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:copper_pro_pick",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "43a44e2e25ed4931",
+      "item": "frostedheart:copper_core_spade"
+    },
+    {
+      "type": "recipe",
+      "id": "15ebf6acdd874eef",
+      "item": "frostedheart:copper_geologists_hammer"
+    }
+  ],
+  "points": 800,
+  "showAltDesc": true
+}

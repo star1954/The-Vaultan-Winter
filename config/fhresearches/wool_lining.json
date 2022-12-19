@@ -1,0 +1,38 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:gambeson",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "crucible"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.75,
+      "id": "26ae318159284bec",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "frostedheart:wool_jacket",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "440a98aed33e41ce",
+      "item": "frostedheart:gambeson"
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}

@@ -1,0 +1,48 @@
+{
+  "icon": "frostedheart:heater_vest",
+  "category": "frostedheart:living",
+  "parents": [
+    "generator_T2"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.35,
+      "id": "ab30808e515f4c1e",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "905ab398f8264628",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "frostedheart:steam_bottle",
+      "count": 1,
+      "nbt": "{energy:240}"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "eede9e221b03433f",
+      "item": "frostedheart:heater_vest"
+    }
+  ],
+  "points": 2750,
+  "showAltDesc": true
+}

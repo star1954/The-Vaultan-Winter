@@ -1,0 +1,334 @@
+{
+	id: "0F92A786237ACCA8"
+	group: "7823E178F7BCBCB0"
+	order_index: 5
+	filename: "t3"
+	title: "{chapter.twr.0F92A786237ACCA8.title}"
+	icon: "immersiveengineering:wirecoil_copper_ins"
+	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quest.twr.5D52744D5382A6CA.title}"
+			icon: "immersiveengineering:ingot_aluminum"
+			x: 3.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
+			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
+			dependencies: ["5808CFED17AE91D4"]
+			hide: true
+			id: "5D52744D5382A6CA"
+			tasks: [
+				{
+					id: "079F2D4900B8B247"
+					type: "item"
+					title: "{quest.twr.5D52744D5382A6CA.079F2D4900B8B247.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/aluminum"
+						}
+					}
+				}
+				{
+					id: "33F1689BF5E74F5D"
+					type: "item"
+					title: "{quest.twr.5D52744D5382A6CA.33F1689BF5E74F5D.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/aluminum"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "602B98FFFFC76CD9"
+				type: "item"
+				item: "kubejs:bauxite"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.twr.4138E3A9915F811C.title}"
+			x: 4.5d
+			y: -5.0d
+			subtitle: "{quest.twr.4138E3A9915F811C.subtitle}"
+			description: [
+				"{quest.twr.4138E3A9915F811C.description.1}"
+				"{quest.twr.4138E3A9915F811C.description.2}"
+				"{quest.twr.4138E3A9915F811C.description.3}"
+				"{quest.twr.4138E3A9915F811C.description.4}"
+			]
+			dependencies: ["5D52744D5382A6CA"]
+			hide: true
+			id: "4138E3A9915F811C"
+			tasks: [{
+				id: "5CCDBD5B8CBA19F9"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
+			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
+			dependencies: ["4785733C81711840"]
+			id: "5808CFED17AE91D4"
+			tasks: [{
+				id: "417E9910C7BE0C2C"
+				type: "item"
+				item: "kubejs:aluminium_oxide_dust"
+			}]
+		}
+		{
+			title: "{quest.twr.0019852CD6EC0354.title}"
+			icon: "immersiveengineering:ingot_steel"
+			x: -1.5d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{quest.twr.0019852CD6EC0354.subtitle}"
+			description: [
+				"{quest.twr.0019852CD6EC0354.description.1}"
+				"{quest.twr.0019852CD6EC0354.description.2}"
+				"{quest.twr.0019852CD6EC0354.description.3}"
+			]
+			dependencies: [
+				"19038BB5A9E42055"
+				"016B841B20166EA8"
+			]
+			hide: true
+			id: "0019852CD6EC0354"
+			tasks: [{
+				id: "147D66FD5DDDF718"
+				type: "item"
+				title: "{quest.twr.0019852CD6EC0354.147D66FD5DDDF718.title}"
+				icon: "immersiveengineering:ingot_steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EC2C206211EF6F5"
+				type: "item"
+				item: "rankine:packaged_tool"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "6927FCD3D4A96E1C"
+			tasks: [{
+				id: "6CA2FEDEA9354124"
+				type: "item"
+				item: "steampowered:steel_cogwheel"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "07D09F067CE6B708"
+			tasks: [{
+				id: "61371EAC59D39D34"
+				type: "item"
+				item: "steampowered:steel_steam_engine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["0019852CD6EC0354"]
+			id: "4DE01CED0E30AD08"
+			tasks: [{
+				id: "0A23FB35CA0CBF1D"
+				type: "item"
+				item: "steampowered:steel_flywheel"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "2516E94BD07F34E5"
+			tasks: [
+				{
+					id: "3F721C781353F092"
+					type: "item"
+					item: "steampowered:steel_burner"
+				}
+				{
+					id: "5CB6D7917EFB1260"
+					type: "item"
+					item: "steampowered:steel_boiler"
+				}
+			]
+		}
+		{
+			title: "{quest.twr.66A550B05F529CD5.title}"
+			icon: "immersiveindustry:steam_turbine"
+			x: 6.0d
+			y: -3.5d
+			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
+			description: [
+				"{quest.twr.66A550B05F529CD5.description.1}"
+				"{quest.twr.66A550B05F529CD5.description.2}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "66A550B05F529CD5"
+			tasks: [{
+				id: "3BC96F9FDC016B05"
+				type: "item"
+				item: "immersiveengineering:generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			subtitle: "{quest.twr.4785733C81711840.subtitle}"
+			description: [
+				"{quest.twr.4785733C81711840.description.1}"
+				"{quest.twr.4785733C81711840.description.2}"
+				"{quest.twr.4785733C81711840.description.3}"
+				"{quest.twr.4785733C81711840.description.4}"
+			]
+			dependencies: [
+				"0019852CD6EC0354"
+				"1F2BD4A72596B287"
+				"7F84766122DC4753"
+			]
+			id: "4785733C81711840"
+			tasks: [{
+				id: "14F106041F4AD0C0"
+				type: "item"
+				item: "immersiveindustry:electrolyzer"
+			}]
+		}
+		{
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "104E63CD1BF438BC"
+			tasks: [{
+				id: "6396EC0E24BC0195"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
+			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
+			dependencies: ["4138E3A9915F811C"]
+			hide: true
+			id: "6EC18F90620F0A48"
+			tasks: [{
+				id: "58310A095E49F03B"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "{quest.twr.45FBD9AC4E48BF09.title}"
+			icon: "immersiveindustry:industrial_electrolyzer"
+			x: 4.5d
+			y: -8.0d
+			subtitle: "{quest.twr.45FBD9AC4E48BF09.subtitle}"
+			description: [
+				"{quest.twr.45FBD9AC4E48BF09.description.1}"
+				"{quest.twr.45FBD9AC4E48BF09.description.2}"
+			]
+			dependencies: ["18D8751ED2B62FF2"]
+			id: "45FBD9AC4E48BF09"
+			tasks: [{
+				id: "45DB90E094FCB755"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{block.immersiveengineering.metal_press}"
+			icon: "immersiveengineering:metal_press"
+			x: 4.5d
+			y: -6.5d
+			subtitle: "{quest.twr.18D8751ED2B62FF2.subtitle}"
+			description: [
+				"{quest.twr.18D8751ED2B62FF2.description.1}"
+				"{quest.twr.18D8751ED2B62FF2.description.2}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "18D8751ED2B62FF2"
+			tasks: [
+				{
+					id: "214DF499902C162B"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "07FF5B27EDE4D04E"
+					type: "advancement"
+					advancement: "immersiveengineering:main/mb_metalpress"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "{quest.twr.0430A33A91D78414.title}"
+			icon: "immersiveindustry:rotary_kiln"
+			x: 4.5d
+			y: -3.5d
+			subtitle: "{quest.twr.0430A33A91D78414.subtitle}"
+			description: [
+				"{quest.twr.0430A33A91D78414.description.1}"
+				"{quest.twr.0430A33A91D78414.description.2}"
+				"{quest.twr.0430A33A91D78414.description.3}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "0430A33A91D78414"
+			tasks: [{
+				id: "53A17C4EEE300E27"
+				type: "item"
+				item: "immersiveindustry:rotary_kiln_cylinder"
+				count: 11L
+			}]
+		}
+		{
+			title: "{quest.twr.144F3D2FC5F7F034.title}"
+			icon: "immersiveindustry:car_kiln"
+			x: 4.5d
+			y: -2.0d
+			subtitle: "{quest.twr.144F3D2FC5F7F034.subtitle}"
+			description: [
+				"{quest.twr.144F3D2FC5F7F034.description.1}"
+				"{quest.twr.144F3D2FC5F7F034.description.2}"
+				"{quest.twr.144F3D2FC5F7F034.description.3}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "144F3D2FC5F7F034"
+			tasks: [{
+				id: "30FE03FF1CD4B48B"
+				type: "item"
+				item: "immersiveindustry:car_kiln_brick"
+				count: 10L
+			}]
+		}
+	]
+}

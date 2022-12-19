@@ -1,0 +1,15 @@
+{
+  "type":"immersiveengineering:squeezer",
+  "fluid":{
+    "fluid":"kubejs:tar",
+	"amount":50
+  },
+  "result":{
+    "item":"rankine:biomass",
+	"count":2
+  },
+  "input":{
+	"item":"minecraft:birch_log"
+  },
+  "energy":12800
+}

@@ -1,0 +1,54 @@
+{
+  "icon": {
+    "type": "combined",
+    "base": "create:basin",
+    "small": "minecraft:campfire"
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "mechanical_crafter",
+    "mechanical_calculator"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.75,
+      "id": "dad9034ff1445e3",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "7a9c4e0b7c434689",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "create:empty_blaze_burner"
+    },
+    {
+      "tag": "forge:plates/constantan"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "687b592d2b5c41df",
+      "item": "create:blaze_burner"
+    },
+    {
+      "type": "item",
+      "id": "d82f6ca75174f52",
+      "rewards": [
+        "minecraft:bucket"
+      ]
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}

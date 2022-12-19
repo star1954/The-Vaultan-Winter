@@ -1,0 +1,49 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:graphite_electrode",
+      "nbt": "{graphDmg:0}"
+    }
+  },
+  "category": "frostedheart:ars",
+  "parents": [
+    "metal_press"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.3,
+      "id": "c9ab5f35c66e4d15",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "b7dde65c53414fe1",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:dust_hop_graphite"
+      }
+    },
+    {
+      "item": "kubejs:servo_core"
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:industrial_electrolyzer",
+      "id": "8eb48e58afd24a02",
+      "multiblock": "immersiveindustry:multiblocks/industrial_electrolyzer"
+    }
+  ],
+  "points": 8000,
+  "showAltDesc": true
+}

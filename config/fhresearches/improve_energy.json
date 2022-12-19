@@ -1,0 +1,55 @@
+{
+  "icon": "minecraft:paper",
+  "category": "frostedheart:ars",
+  "parents": [
+    "transmission_machinery"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "ee175cefc3da4e2b",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "3707af210b674faf",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "a1a62983ab1f4aa0",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "ca136b2cfb5340de",
+      "required": true,
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "item": "minecraft:paper"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "9ae5061280a14bea",
+      "vars": "max_energy",
+      "val": 10000.0
+    }
+  ],
+  "points": 2000,
+  "showAltDesc": true
+}

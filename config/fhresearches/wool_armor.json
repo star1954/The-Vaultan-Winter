@@ -1,0 +1,63 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:wool_hat",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "generator_T1"
+  ],
+  "clues": [
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "594fc6ab84b04b83",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "item": "minecraft:wheat"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "9a01e71a70584b34",
+      "item": {
+        "tag": "minecraft:wool"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "dcf9e7a37661446b",
+      "item": "frostedheart:wool_hat"
+    },
+    {
+      "type": "recipe",
+      "id": "fbdb8ce826944b4d",
+      "item": "frostedheart:wool_jacket"
+    },
+    {
+      "type": "recipe",
+      "id": "ff629805291048a5",
+      "item": "frostedheart:wool_pants"
+    },
+    {
+      "type": "recipe",
+      "id": "78f3aa43627945eb",
+      "item": "frostedheart:wool_boots"
+    }
+  ],
+  "points": 1500,
+  "showAltDesc": true
+}

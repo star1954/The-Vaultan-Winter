@@ -1,0 +1,47 @@
+{
+  "icon": "immersiveengineering:light_engineering",
+  "category": "frostedheart:production",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.45,
+      "id": "2929a10897b34151",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "99027a4e9334889",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:component_iron"
+      }
+    },
+    {
+      "item": "kubejs:servo_core"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "d16d016f4df84131",
+      "item": "immersiveengineering:light_engineering"
+    },
+    {
+      "type": "recipe",
+      "id": "ee10ccb46fc6449e",
+      "item": "immersiveengineering:rs_engineering"
+    }
+  ],
+  "points": 5000,
+  "showAltDesc": true
+}

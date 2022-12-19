@@ -1,0 +1,51 @@
+{
+  "icon": {
+    "type": "combined",
+    "base": "immersiveengineering:generator",
+    "small": "steampowered:pressurized_steam_container"
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "squeezer",
+    "fermenter"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.3,
+      "id": "db17de1fd15c4a39",
+      "required": true,
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 3,
+      "base_ingredient": {
+        "item": "create:encased_fan"
+      }
+    },
+    {
+      "count": 3,
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "immersiveengineering:generator"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:steam_turbine",
+      "id": "94083d6042b43d2",
+      "multiblock": "immersiveindustry:multiblocks/steam_turbine"
+    }
+  ],
+  "points": 8000,
+  "showAltDesc": true
+}

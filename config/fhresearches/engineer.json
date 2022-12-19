@@ -1,0 +1,43 @@
+{
+  "icon": "engineersdecor:small_tree_cutter",
+  "category": "frostedheart:ars",
+  "parents": [
+    "crucible"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "f951dd580614a9b",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "immersiveengineering:circuit_board"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "immersiveengineering:wirecoil_copper"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "d6f2d442e8fe4510",
+      "item": "engineersdecor:factory_hopper"
+    },
+    {
+      "type": "recipe",
+      "id": "295d3e9a2e6d422b",
+      "item": "engineersdecor:small_tree_cutter"
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}

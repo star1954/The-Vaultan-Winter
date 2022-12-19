@@ -1,0 +1,21 @@
+mainmenu.twr.developers = Developers
+mainmenu.twr.supportcenter = Support Center
+mainmenu.twr.supportcenter.desc = Issues and Suggestion Tracker
+mainmenu.twr.supportus = Support Us
+mainmenu.twr.supportus.url = https://patreon.com/TeamMoegProjects
+mainmenu.twr.options = Options
+mainmenu.twr.quitgame = Quit Game
+mainmenu.twr.teammoeg = By TeamMoeg
+mainmenu.twr.singleplayer = Singleplayer
+mainmenu.twr.singleplayer.hover = Lone Journey
+mainmenu.twr.multiplayer = Multiplayer
+mainmenu.twr.multiplayer.hover = Crowded Trip
+
+twr.update.title = Update Info
+twr.update.tooltip = Check if there is a new stable version you can update
+twr.update.tooltip_2 = Also get the latest test version!
+twr.update.latest_test_version = Latest Test Version
+twr.update.latest_version = Latest Stable Version
+twr.update.download_update = Download Update From Either:
+twr.update.curse = CurseForge
+twr.update.mcbbs = MCBBS

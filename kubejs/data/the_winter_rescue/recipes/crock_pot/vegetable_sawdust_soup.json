@@ -1,0 +1,45 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "result": "frostedheart:vegetable_sawdust_soup",
+  "requirements": [
+    {
+      "type": "category_max",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "category_min_exclusive",
+      "category": "VEGGIE",
+      "min": 0.75
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:bowl"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "rankine:sawdust"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "frostedheart:white_turnip_block"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "category_max",
+      "category": "INEDIBLE",
+      "max": 2.0
+    }
+  ],
+  "cookingtime": 400,
+  "priority": 16,
+  "potlevel": 0
+}

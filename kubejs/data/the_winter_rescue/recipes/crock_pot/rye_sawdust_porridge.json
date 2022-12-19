@@ -1,0 +1,40 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "requirements": [
+    {
+      "type": "category_max",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:bowl"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "frostedheart:rye_flour"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "rankine:sawdust"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "category_max",
+      "category": "INEDIBLE",
+      "max": 2.0
+    }
+  ],
+  "result": "frostedheart:rye_sawdust_porridge",
+  "cookingtime": 400,
+  "priority": 16,
+  "potlevel": 0
+}

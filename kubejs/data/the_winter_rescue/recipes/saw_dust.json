@@ -1,0 +1,16 @@
+{
+  "type": "thermopolium:food",
+  "heal": 2,
+  "sat": 0.1,
+  "items": [
+    {
+      "item": "rankine:sawdust"
+    },
+	{
+      "item": "immersiveengineering:dust_wood"
+    }
+  ],
+  "item": {
+    "item": "rankine:sawdust"
+  }
+}

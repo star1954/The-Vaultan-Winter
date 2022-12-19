@@ -1,0 +1,52 @@
+{
+  "icon": "immersiveengineering:fluid_pump",
+  "category": "frostedheart:production",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.45,
+      "id": "350827af7cbd4bcd",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "4df5fbeb8e024f0a",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "create:mechanical_pump"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "item": "kubejs:servo_core"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "a9694a53bbab41d6",
+      "item": "immersiveengineering:fluid_pump"
+    },
+    {
+      "type": "recipe",
+      "id": "7ee9ad8007024b7c",
+      "item": "engineersdecor:small_fluid_funnel"
+    },
+    {
+      "type": "recipe",
+      "id": "d052211335924e3f",
+      "item": "engineersdecor:straight_pipe_valve"
+    }
+  ],
+  "points": 5000,
+  "showAltDesc": true
+}

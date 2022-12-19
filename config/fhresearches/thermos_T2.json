@@ -1,0 +1,53 @@
+{
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:advanced_thermos",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.4,
+      "id": "587048a44a004a5d",
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.4,
+      "id": "61de1d3709fa4a80",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "kubejs:invar_steel_plate"
+    },
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "2859cb96ccf842e2",
+      "item": "frostedheart:advanced_thermos"
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}
